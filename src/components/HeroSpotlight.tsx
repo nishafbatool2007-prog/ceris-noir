@@ -170,25 +170,6 @@ export const HeroSpotlight: React.FC<HeroSpotlightProps> = ({
               <div className="grid grid-cols-1 lg:grid-cols-12 gap-6 items-end my-auto">
                 {/* Left Portal Headline & Main CTA */}
                 <div className="lg:col-span-7 space-y-4 sm:space-y-6">
-                  {/* Shifted Website Logo Emblem Badge */}
-                  <div className="flex items-center gap-3">
-                    <div className="relative w-10 h-10 rounded-full p-1 bg-purple-950/70 border border-purple-400/50 backdrop-blur-md shadow-[0_0_25px_rgba(192,132,252,0.7)] hover:scale-110 transition-transform cursor-pointer group/emblem">
-                      <img
-                        src="/assets/aistudio/image_9fe2811d.png"
-                        alt="AuraLavande Emblem"
-                        className="w-full h-full object-contain filter drop-shadow-[0_0_8px_rgba(192,132,252,0.9)] animate-spin-slow"
-                      />
-                    </div>
-                    <div className="flex flex-col">
-                      <span className="font-display font-semibold text-sm tracking-widest text-white uppercase drop-shadow-md">
-                        AuraLavande
-                      </span>
-                      <span className="text-[10px] font-mono tracking-wider text-purple-300/80 uppercase">
-                        Master Soundstage
-                      </span>
-                    </div>
-                  </div>
-
                   {/* Zero-Pill Unboxed Subtitle */}
                   <div className="flex items-center gap-2 text-xs sm:text-sm font-mono tracking-wider text-fuchsia-300/90 uppercase drop-shadow-md">
                     <Sparkles className="w-4 h-4 text-purple-300 animate-pulse" />
