@@ -1,0 +1,6 @@
+{
+  "name": "AuraLavande Music",
+  "description": "A high-fidelity music streaming platform bathed in purple, lavender, and white tones with Lenis smooth scrolling and a transparent floating dock.",
+  "requestFramePermissions": [],
+  "majorCapabilities": ["MAJOR_CAPABILITY_SERVER_SIDE_GEMINI_API"]
+}
